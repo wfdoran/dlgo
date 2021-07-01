@@ -7,7 +7,7 @@ class Move():
         assert(point is not None) ^ is_pass ^ is_resign
         self.point = point
         self.is_pass = is_pass
-                self.is_resign = is_resign
+        self.is_resign = is_resign
                 
     @classmethod
     def play(cls, point):
